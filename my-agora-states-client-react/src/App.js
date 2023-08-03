@@ -16,7 +16,7 @@ function App() {
         setDiscussions(data);
       });
   };
-  
+    
   const addDiscussion = ({ title, author, bodyText }) => {
     const newDiscussionData = {
       title: title,
